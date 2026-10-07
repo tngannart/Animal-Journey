@@ -6,26 +6,26 @@ let crab;
 let font1;
 
 function preload() {
-  nt1 = loadSound("assets/bell.mp3");
-  nt2 = loadSound("assets/chewing.mp3");
-  nt3 = loadSound("assets/srabbit.mp3");
-  nt4 = loadSound("assets/ocean.mp3");
-  nt5 = loadSound("assets/treasure.mp3");
-  nt6 = loadSound("assets/moving.mp3");
+  nt1 = loadSound("bell.mp3");
+  nt2 = loadSound("chewing.mp3");
+  nt3 = loadSound("srabbit.mp3");
+  nt4 = loadSound("ocean.mp3");
+  nt5 = loadSound("treasure.mp3");
+  nt6 = loadSound("moving.mp3");
 
-  imgcrab = loadImage("assets/crab.png");
-  imgtr = loadImage("assets/treasure.png");
-  imgrab = loadImage("assets/rabbit.png");
+  imgcrab = loadImage("crab.png");
+  imgtr = loadImage("treasure.png");
+  imgrab = loadImage("rabbit.png");
 
-  font1 = loadFont("assets/carrot.otf");
+  font1 = loadFont("carrot.otf");
 }
 
 function setup() {
   createCanvas(600, 400);
 
   carrot = createSprite(0, 0, -100, -110); //0,0,-100,-110
-  carrot.addAnimation("idle", "assets/carrot.05.png", "assets/carrot.11.png");
-  carrot.addAnimation("clicked", "assets/carrot.01.png", "assets/carrot.04.png");
+  carrot.addAnimation("idle", "carrot.05.png", "carrot.11.png");
+  carrot.addAnimation("clicked", "carrot.01.png", "carrot.04.png");
   carrot.visible = false;
   carrot.scale = 0.03; 
 
