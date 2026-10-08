@@ -6,22 +6,14 @@ let crab;
 let font1;
 
 function preload() {
-  // nt1 = loadSound("bell.mp3");
-  // nt2 = loadSound("chewing.mp3");
-  // nt3 = loadSound("srabbit.mp3");
-  // nt4 = loadSound("ocean.mp3");
-  // nt5 = loadSound("treasure.mp3");
-  // nt6 = loadSound("moving.mp3");
-
   imgcrab = loadImage("crab.png");
   imgtr = loadImage("treasure.png");
   imgrab = loadImage("rabbit.png");
-
   font1 = loadFont("carrot.otf");
 }
 
 function setup() {
-nt1 = loadSound("bell.mp3");
+  nt1 = loadSound("bell.mp3");
   nt2 = loadSound("chewing.mp3");
   nt3 = loadSound("srabbit.mp3");
   nt4 = loadSound("ocean.mp3");
