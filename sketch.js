@@ -6,12 +6,12 @@ let crab;
 let font1;
 
 function preload() {
-  nt1 = loadSound("bell.mp3");
-  nt2 = loadSound("chewing.mp3");
-  nt3 = loadSound("srabbit.mp3");
-  nt4 = loadSound("ocean.mp3");
-  nt5 = loadSound("treasure.mp3");
-  nt6 = loadSound("moving.mp3");
+  // nt1 = loadSound("bell.mp3");
+  // nt2 = loadSound("chewing.mp3");
+  // nt3 = loadSound("srabbit.mp3");
+  // nt4 = loadSound("ocean.mp3");
+  // nt5 = loadSound("treasure.mp3");
+  // nt6 = loadSound("moving.mp3");
 
   imgcrab = loadImage("crab.png");
   imgtr = loadImage("treasure.png");
@@ -21,6 +21,13 @@ function preload() {
 }
 
 function setup() {
+nt1 = loadSound("bell.mp3");
+  nt2 = loadSound("chewing.mp3");
+  nt3 = loadSound("srabbit.mp3");
+  nt4 = loadSound("ocean.mp3");
+  nt5 = loadSound("treasure.mp3");
+  nt6 = loadSound("moving.mp3");
+  
   createCanvas(600, 400);
 
   carrot = createSprite(0, 0, -100, -110); //0,0,-100,-110
